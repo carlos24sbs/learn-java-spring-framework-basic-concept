@@ -1,0 +1,21 @@
+server:
+  application:
+    name: lectura fiche yaml
+    url: http://lectura.demo
+    description: Inyeccion desde fichero yaml con spring boot
+  config:
+    ips:
+      - 10.80.10.190
+      - 10.80.10.191
+      - 10.80.10.192
+      - 10.80.10.193
+    file-system:
+      - c:/data
+      - c:/data/bin
+  user:
+    root:
+      username: root
+      password: passroot
+    guest:
+      username: guest
+      password: passguest
